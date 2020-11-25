@@ -1,0 +1,61 @@
+.downLinks__main{
+    
+    height: 80px;
+    background: black;
+    color: white;
+    width: 70%;
+    max-width: 470px;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    z-index: 110000;
+}
+.downLinks__main > h2{
+    text-align: center;
+    justify-content: center;
+}
+.downLinks__main > .downLinks__icons {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1.5rem ;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.div__back2{
+    display: inline-flex;
+    background: red;
+    width: 10px;
+    height: 18px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    margin-left: -85px;
+    margin-top: 2.5px;
+}
+.div__back1{
+    display: inline-flex !important;
+    background: blue !important;
+    width: 10px !important;
+    height: 18px !important;
+    border-radius: 5px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: -1 !important;
+    margin-right: -85px !important;
+    margin-top: 2.5px !important;
+}
+
+.add__btn{
+    display: flex;
+    width: 40px;
+    
+}
+.icons{
+    color: white;
+}
